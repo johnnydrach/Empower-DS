@@ -1,0 +1,37 @@
+.frame,
+.main-container,
+.main-page-container,
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame {
+  width: 1271px;
+  overflow: hidden;
+  justify-content: center;
+  z-index: 0;
+}
+.main-container,
+.main-page-container,
+.page {
+  justify-content: flex-start;
+}
+.main-container {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 247px;
+  z-index: 1;
+}
+.main-page-container,
+.page {
+  position: relative;
+}
+.main-page-container {
+  margin: 0;
+  gap: 10px;
+}
+.page {
+  width: 100%;
+}
